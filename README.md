@@ -87,3 +87,30 @@ A **Use Case Diagram** is a visual representation of how different users (called
 Here is a sample use case diagram for the ALX Booking Management System:
 
 ![ALX Booking System Use Case Diagram](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+**Acceptance Criteria** (AC) are a set of predefined conditions that a software feature must meet to be accepted by a user, customer, or stakeholder. They are written from the end-user's perspective and state the exact expected outcome, making requirements unambiguous and testable.
+
+Without clear AC, developers might build a feature that technically works but doesn't meet the stakeholder's actual expectations.
+
+### Example: Acceptance Criteria for a "Checkout" Feature
+
+**User Story:** As a user, I want to review my booking and pay for it so that I can confirm my reservation.
+
+**Acceptance Criteria:**
+* **Scenario 1: Successful Payment with a Valid Credit Card**
+    * **Given** I am on the checkout page with a selected room in my cart.
+    * **When** I enter valid credit card details and click the "Confirm Payment" button.
+    * **Then** the system should process the payment successfully.
+    * **And** I should be redirected to a booking confirmation page.
+    * **And** I should receive a confirmation email with my booking details.
+
+* **Scenario 2: Failed Payment with an Invalid Credit Card**
+    * **Given** I am on the checkout page.
+    * **When** I enter invalid or expired credit card details and click "Confirm Payment".
+    * **Then** the payment should be declined.
+    * **And** a clear error message like "Your payment could not be processed. Please check your card details." must be displayed.
+    * **And** I should remain on the checkout page to correct my details.
+----
+#### Unto the Next....
