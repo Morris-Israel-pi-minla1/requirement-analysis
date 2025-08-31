@@ -47,3 +47,31 @@ The process can be broken down into five core activities that build upon each ot
     * Acceptance Criteria: Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
     * Traceability: Establishing traceability matrices to ensure all requirements are addressed during development and testing.
 
+## Types of Requirements
+
+Requirements are broadly classified into two categories: Functional and Non-functional.
+
+### Functional Requirements
+
+Functional requirements define **what the system should do**. They describe the specific behaviors, features, and functions. They are the "verbs" of the system.
+
+**Examples for a Booking Management Project:**
+
+* **User Authentication**: A user must be able to create an account and log in with an email and password.
+* **Search Functionality**: A user must be able to search for available rooms/services based on dates, location, and type.
+* **Booking Creation**: An authenticated user must be able to select a service/room and create a booking for a specific date.
+* **Payment Processing**: The system must be able to process payments via credit card.
+* **Booking Management**: A user must be able to view their past and upcoming bookings in a personal dashboard.
+
+### Non-functional Requirements
+
+Non-functional requirements define **how the system should perform**. They describe the qualities and constraints of the system, such as performance, security, and usability. They are the "adjectives" that describe the system's quality.
+
+**Examples for a Booking Management Project:**
+
+* **Performance**: The search results page must load in under 2 seconds and handle up to 1000 concurrent users.
+* **Security**: Ensure data encryption, secure login, and protect against common vulnerabilities. All user passwords must be hashed and salted, and all payment transactions must be encrypted using SSL. 🔒
+* **Usability**: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks. The booking process, from search to confirmation, should be completable in 5 clicks or less.
+* **Reliability**: The system must have an uptime of 99.9% and recover quickly from any failures.
+* **Compatibility**: The website must render correctly on the latest versions of Chrome, Firefox, and Safari.
+
