@@ -75,3 +75,15 @@ Non-functional requirements define **how the system should perform**. They descr
 * **Reliability**: The system must have an uptime of 99.9% and recover quickly from any failures.
 * **Compatibility**: The website must render correctly on the latest versions of Chrome, Firefox, and Safari.
 
+## Use Case Diagrams
+
+A **Use Case Diagram** is a visual representation of how different users (called "actors") interact with a system to achieve a specific goal. They are excellent tools for illustrating the functional requirements of a system from the user's perspective.
+
+#### Benefits include:
+* Providing a high-level, easy-to-understand view of the system's scope.
+* Helping to identify all potential user interactions.
+* Serving as a basis for writing more detailed test cases.
+
+Here is a sample use case diagram for the ALX Booking Management System:
+
+![ALX Booking System Use Case Diagram](alx-booking-uc.png)
